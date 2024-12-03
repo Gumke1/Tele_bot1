@@ -18,6 +18,9 @@ class Register(StatesGroup):
     age = State()
     id_user = State()
     phone_user = State()
+    where_from = State()
+    where_to = State()
+
 
 
 class ChoseProject(StatesGroup):

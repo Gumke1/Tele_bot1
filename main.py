@@ -9,11 +9,10 @@ from aiogram import Bot, Dispatcher, types
 
 async def main():
     db_session.global_init("db/blogs.db")
-    bot = Bot(token="token")
+    bot = Bot(token="7348039284:AAE2lwdLDtkts6PwDZhzs0iazsXDOAuaGOs")
     dp = Dispatcher()
     dp.include_router(router)
     await dp.start_polling(bot)
-
 
 
 if __name__ == '__main__':
